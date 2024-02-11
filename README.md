@@ -12,11 +12,11 @@ This repository serves as a sampler showcasing various Haskell programs. Each pr
 
 To install the necessary dependencies for running the programs, you can use either Stack or Cabal package managers. Make sure you have Haskell and the respective package manager installed on your system.
 
-- ### Using Stack:
+### Using Stack:
 
 ```stack install --dependencies-only $(grep -v '^#' requirements.txt)```
 
-- ### Using Cabal:
+### Using Cabal:
 
 ```cabal install --dependencies-only $(grep -v '^#' requirements.txt)```
 
