@@ -8,6 +8,18 @@ Haskell is a functional programming language known for its strong static typing,
 
 This repository serves as a sampler showcasing various Haskell programs. Each program demonstrates different aspects of the language, ranging from basic syntax to more advanced topics like web scraping and GUI development. Whether you're new to Haskell or looking to explore its capabilities further, this repository provides a diverse collection of programs to study and learn from.
 
+## Installation
+
+To install the necessary dependencies for running the programs, you can use either Stack or Cabal package managers. Make sure you have Haskell and the respective package manager installed on your system.
+
+- ### Using Stack:
+
+```stack install --dependencies-only $(grep -v '^#' requirements.txt)```
+
+- ### Using Cabal:
+
+```cabal install --dependencies-only $(grep -v '^#' requirements.txt)```
+
 ## Programs Included
 
 ### 1. Hello World
